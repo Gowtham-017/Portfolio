@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body5{
+    min-height: 5vh;
+    background:steelblue;   
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.icons:hover{
+    color: white;
+}
+.dev{
+    padding: 10px 10px 0 10px 0;
+    display: flex;
+    justify-content:space-evenly;
+}

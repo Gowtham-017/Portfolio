@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body2{
+    background: #4a98;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    margin-top: 400px;
+}
+.body2 h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    cursor: pointer;
+}
+.grid img{
+    height: 200px;
+}
+.grid img:hover{
+    transform: rotate(10deg);
+    opacity: 90%;
+}

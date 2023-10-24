@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bodyr{
+    min-height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: black;
+}
+.bodyr img{
+    height: 300px;
+    width: 300px;
+}
+.bodyr button{
+    background: #3B82F6;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+.bodyr button:hover{
+    background:grey;    
+}
+.bodyr a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}

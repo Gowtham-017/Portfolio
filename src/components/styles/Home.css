@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body1 .intro{
+    background: #111827;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    background: #4a98;
+    position: relative;
+}
+.intro h1{
+    font-size: 80px;
+    color: #3B82F6;
+}
+.hello{
+    color: #2563eb;
+    font-size: 50px;
+}
+.intro h1:hover {
+    font-size: 90px;
+    animation: blink 1s infinite;
+    color: #2563eb;
+  }
+.intro span{
+    color: white;
+}
+.type{
+    font-size: 350px;
+}
+.intro h2{
+    color: #3B82F6;
+    font-size: 30px;
+}
+.contact{
+    margin-top: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.butt{
+    width: 140px;
+    background: #3B82F6;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.butt:hover {
+    background: #3b83f666;
+    transform: scale(1.1);
+  }
+.logo{
+    height: 250px;
+    border-radius: 50px;
+}

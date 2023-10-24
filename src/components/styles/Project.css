@@ -1,0 +1,7 @@
+.body4{
+    min-height: 100vh;
+    display: grid;
+    gap: 20px;
+    background: radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+    grid-template-columns: auto auto auto;
+}
