@@ -1,0 +1,24 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build-windows:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the Docker image on Windows
+      run: docker build . --file Dockerfile --tag my-image-name:$(Get-Date -Format "MMddyyyyHHmmss")
+
+
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the Docker image on Linux
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
